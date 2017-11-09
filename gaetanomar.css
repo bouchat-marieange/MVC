@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://didiermotte.be/app/uploads/2017/11/NY_docks_o.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vide {
+    height: 300px;
+
+}
+
+.card {
+    height: 400px;
+    width: 500px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-footer {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    width: 100%;
+    flex: 1;
+    display:flex;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #BBB9B9;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    font-size: 14px;
+
+}
+
+
+.button:hover {
+    color: #000000;
+    background-color: whitesmoke;
+    height: 110px;
+    margin-top: -10px;
+    box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.2);
+    transition: all 300ms ease-in-out;
+}
+
+.picture {
+
+   padding : 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.picture img {
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+}
+
+.picture-wrapper, .info-wrapper, .resume-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-wrapper  {
+    flex: 2;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.picture-wrapper {
+    flex: 1.25;
+
+}
+
+.title {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+    line-height: 0.9em;
+
+}
+
+.main-text {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 0.9em;
+    line-height: 1.1em;
+    margin:0px 67px 0px;
+}
+
+.subtitle {
+
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    margin:5px 15px 10px;
+    font-size: 0.78em;
+}
+.vide1 {
+    height: 500px;
+}
+
+.quote {
+    font-size: 30px;
+    color: white;
+    background: rgb(92, 92, 92);
+}
+.vide2 {
+    height: 10px;
+}
+.quote2 {
+    font-size: 15px;
+    color: white;
+    background: rgb(39, 39, 39);
+}

@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", "Open Sans", "Avenir Next", sans-serif;
+}
+
+body{
+  min-width: 300px;
+}
+
+.viewHeader {
+  display: inline-block;
+  height: 120px;
+  width: 100%;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 33%;
+  width: 100%;
+  background-color: #272727;
+}
+
+.HeaderDesc {
+  color: #fff;
+  font-size: 11.5px;
+}
+
+.language:last-child {
+  margin-right: 2vw;
+}
+
+.language li {
+  display: inline-block;
+  margin-left: 1vw;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: #F7F7F7;
+}
+.language li:hover {
+background: #fff;
+
+}
+.langButton:active{
+  background: red;
+
+}
+.langButton.active{
+  background: blue;
+
+}
+
+.language li a:hover {
+  color: #000;
+
+}
+
+
+.language li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  margin: 3px 8px 3px 8px;
+  font-weight: bold;
+}
+
+.subNav {
+  height: 67%;
+  width: 100%;
+  background-color: #272727;
+  border-top: 1px solid #454444;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  background-image: url("https://didiermotte.be/app/themes/didiermotte-2.2/assets/images/touchwood-logo-sans-slogan-nobelBold-black.png");
+  width: 239px;
+  height: 75px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buttonContainer {
+  padding-top: 2vh;
+}
+
+.menuBox li {
+  display: inline-block;
+  margin-left: 1vw;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: #F7F7F7;
+}
+
+.menuBox li:hover {
+background: #fff;
+
+}
+
+.menuBox li a:hover {
+  color: #000;
+
+}
+
+.menuBox li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  margin: 3px 8px 3px 8px;
+  font-weight: bold;
+}
+
+.phoneNumber {
+  color: #fff;
+  padding-top: 1.5vh;
+  padding-right: 2vh;
+}
+
+.phoneNumber a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+.phoneNumber a:hover {
+  text-decoration:underline;
+
+}
+
+@media screen and (max-width: 696px) {
+  .menuBox li {
+    display: block;
+    margin-left: 1vw;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: #F7F7F7;
+    margin-bottom: 6px;
+  }
+  .buttonContainer {
+    padding-top: 0.5vh;
+  }
+}
+
+@media screen and (max-width: 538px) {
+
+
+  .logoContainer{
+    display: none;
+  }
+  .subNav {
+    height: 85%;
+    width: 100%;
+    background-color: #272727;
+    border-top: 1px solid #454444;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .buttonContainer {
+    padding-top: 1.5vh;
+  }
+}
+@media screen and (max-width: 380px) {
+  .HeaderDesc{
+    font-size: 10px;
+  }
+  .navBar {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    height: 33%;
+    width: 100%;
+    background-color: #272727;
+}
+}
